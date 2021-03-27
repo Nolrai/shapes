@@ -1,0 +1,8 @@
+[package]
+name = "shapes"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.28.0"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "34a33172cf617103bf573991e699a9725b98774b"}
